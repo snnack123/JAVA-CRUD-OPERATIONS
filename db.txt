@@ -1,0 +1,20 @@
+Id:1
+Nume:Blugi Skinny
+Cantitate:250
+Marime:XS
+Culoare:Negru
+Pret:130
+
+Id:2
+Nume:Pantaloni de trening
+Cantitate:50
+Marime:XXL
+Culoare:Albastru
+Pret:85
+
+Id:3
+Nume:Tricou Barbatesc
+Cantitate:50
+Marime:XL
+Culoare:Verde
+Pret:50

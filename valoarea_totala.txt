@@ -1,0 +1,1 @@
+Valoarea toala a produselor din baza de date este: 92750 lei

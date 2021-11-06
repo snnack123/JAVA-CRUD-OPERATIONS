@@ -1,0 +1,1 @@
+Numarul total de inregistrari din baza de date este: 3

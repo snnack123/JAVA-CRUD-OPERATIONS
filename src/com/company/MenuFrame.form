@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.MenuFrame">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="39" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="21" width="1231" height="1159"/>
+    </constraints>
+    <properties>
+      <background color="-2494224"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="be64c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="24" style="1"/>
+          <foreground color="-4516069"/>
+          <text value="ON-LINE SHOP"/>
+        </properties>
+      </component>
+      <component id="91e87" class="javax.swing.JTextArea" binding="viewTextArea">
+        <constraints>
+          <grid row="2" column="1" row-span="14" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Monospaced" size="12" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="a80f4">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="f1f59">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="6b5ac" class="javax.swing.JButton" binding="readButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <foreground color="-13487566"/>
+          <text value="CITIRE PRODUSE"/>
+        </properties>
+      </component>
+      <hspacer id="c8894">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="920a7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="32" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nume"/>
+        </properties>
+      </component>
+      <vspacer id="ca089">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="d18db" class="javax.swing.JTextField" binding="txtNume">
+        <constraints>
+          <grid row="32" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a826e" class="javax.swing.JTextField" binding="txtCantitate">
+        <constraints>
+          <grid row="33" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="91d79" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="33" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cantitate"/>
+        </properties>
+      </component>
+      <component id="714e6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="34" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Marime"/>
+        </properties>
+      </component>
+      <component id="5822f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="35" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Culoare"/>
+        </properties>
+      </component>
+      <component id="73d02" class="javax.swing.JTextField" binding="txtPret">
+        <constraints>
+          <grid row="36" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="88a27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="36" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pret"/>
+        </properties>
+      </component>
+      <component id="cadb0" class="javax.swing.JButton" binding="createButton" default-binding="true">
+        <constraints>
+          <grid row="36" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <text value="ADAUGA PRODUS"/>
+        </properties>
+      </component>
+      <vspacer id="f626a">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ad1b6" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+        <constraints>
+          <grid row="18" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <text value="STERGERE PRODUS"/>
+        </properties>
+      </component>
+      <component id="8d3f3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ID"/>
+        </properties>
+      </component>
+      <component id="9d660" class="javax.swing.JLabel" binding="lblError">
+        <constraints>
+          <grid row="38" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6bca3" class="javax.swing.JLabel" binding="IdUpdateField">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Id"/>
+        </properties>
+      </component>
+      <component id="f27fd" class="javax.swing.JLabel" binding="NameUpdateLabel">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nume"/>
+        </properties>
+      </component>
+      <component id="69163" class="javax.swing.JLabel" binding="CantitateUpdateLabel">
+        <constraints>
+          <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cantitate"/>
+        </properties>
+      </component>
+      <component id="81e28" class="javax.swing.JLabel" binding="MarimeUpdateLabel">
+        <constraints>
+          <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Marime"/>
+        </properties>
+      </component>
+      <component id="1af21" class="javax.swing.JLabel" binding="CuloareUpdateLabel">
+        <constraints>
+          <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Culoare"/>
+        </properties>
+      </component>
+      <component id="a30f3" class="javax.swing.JLabel" binding="PretUpdateLabel">
+        <constraints>
+          <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pret"/>
+        </properties>
+      </component>
+      <component id="61e35" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+        <constraints>
+          <grid row="27" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <text value="ACTUALIZARE PRODUS"/>
+        </properties>
+      </component>
+      <component id="5d12d" class="javax.swing.JTextField" binding="txtNumeUpdate">
+        <constraints>
+          <grid row="23" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5d0c7" class="javax.swing.JTextField" binding="txtCantitateUpdate">
+        <constraints>
+          <grid row="24" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b0b3" class="javax.swing.JTextField" binding="txtPretUpdate">
+        <constraints>
+          <grid row="27" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c3c85" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="20" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="ACTUALIZARE PRODUS"/>
+        </properties>
+      </component>
+      <component id="b155d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="30" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="20" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="CREARE PRODUS"/>
+        </properties>
+      </component>
+      <component id="160fc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="20" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="STERGERE PRODUS"/>
+        </properties>
+      </component>
+      <component id="bda2a" class="javax.swing.JComboBox" binding="cmbMarimeUpdate">
+        <constraints>
+          <grid row="25" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="XS"/>
+            <item value="S"/>
+            <item value="M"/>
+            <item value="L"/>
+            <item value="XL"/>
+            <item value="XXL"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1b380" class="javax.swing.JComboBox" binding="cmbCuloareUpdate">
+        <constraints>
+          <grid row="26" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Negru"/>
+            <item value="Alb"/>
+            <item value="Gri"/>
+            <item value="Rosu"/>
+            <item value="Albastru"/>
+            <item value="Galben"/>
+            <item value="Maro"/>
+            <item value="Violet"/>
+            <item value="Verde"/>
+            <item value="Portocaliu"/>
+            <item value="Roz"/>
+          </model>
+        </properties>
+      </component>
+      <component id="cb3d7" class="javax.swing.JComboBox" binding="cmbMarimeCreate">
+        <constraints>
+          <grid row="34" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="XS"/>
+            <item value="S"/>
+            <item value="M"/>
+            <item value="L"/>
+            <item value="XL"/>
+            <item value="XXL"/>
+          </model>
+        </properties>
+      </component>
+      <component id="55a40" class="javax.swing.JComboBox" binding="cmbCuloareCreate">
+        <constraints>
+          <grid row="35" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Negru"/>
+            <item value="Alb"/>
+            <item value="Gri"/>
+            <item value="Rosu"/>
+            <item value="Albastru"/>
+            <item value="Galben"/>
+            <item value="Maro"/>
+            <item value="Violet"/>
+            <item value="Verde"/>
+            <item value="Portocaliu"/>
+            <item value="Roz"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a33a5" class="javax.swing.JComboBox" binding="cmbDelete">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d3084" class="javax.swing.JComboBox" binding="cmbUpdate">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5a435" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="24" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Trebuie sa fie numar"/>
+        </properties>
+      </component>
+      <component id="6dfe3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="23" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Minim 3 caractere"/>
+        </properties>
+      </component>
+      <component id="a4df3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="28" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Trebuie sa fie numar"/>
+        </properties>
+      </component>
+      <vspacer id="8bb52">
+        <constraints>
+          <grid row="29" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9d72" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="33" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Trebuie sa fie numar"/>
+        </properties>
+      </component>
+      <component id="ab85e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="32" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Minim 3 caractere"/>
+        </properties>
+      </component>
+      <component id="1d034" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="37" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Trebuie sa fie numar"/>
+        </properties>
+      </component>
+      <component id="525df" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Id-ul produsului pe care doriti sa il stergeti se alege din lista derulanta"/>
+        </properties>
+      </component>
+      <component id="65a2b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="31" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="12" style="1"/>
+          <foreground color="-4516069"/>
+          <text value="*Id-ul se genereaza automat"/>
+        </properties>
+      </component>
+      <component id="d233" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="33" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="20" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="SUGESTII"/>
+        </properties>
+      </component>
+      <component id="e955d" class="javax.swing.JTextField" binding="txtCantitateTotala">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="3f31f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="16" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="GENERARE RAPORT CANTITATE TOTALA"/>
+        </properties>
+      </component>
+      <component id="a663f" class="javax.swing.JTextField" binding="txtNrTotal">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="f4381" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="16" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="GENERARE RAPORT NUMAR INREGISTRARI"/>
+        </properties>
+      </component>
+      <component id="88b15" class="javax.swing.JButton" binding="btnNrTotal">
+        <constraints>
+          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <text value="GENERARE RAPORT"/>
+        </properties>
+      </component>
+      <component id="32670" class="javax.swing.JButton" binding="generareMarimeButton" default-binding="true">
+        <constraints>
+          <grid row="34" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generare marime"/>
+        </properties>
+      </component>
+      <component id="7af6c" class="javax.swing.JLabel" binding="lblGenerareMarime">
+        <constraints>
+          <grid row="34" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="Marime ..........."/>
+        </properties>
+      </component>
+      <component id="58cb3" class="javax.swing.JLabel" binding="lblGenerareCuloare">
+        <constraints>
+          <grid row="35" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="Culoare: .........."/>
+        </properties>
+      </component>
+      <component id="a2f58" class="javax.swing.JButton" binding="generareCuloareButton" default-binding="true">
+        <constraints>
+          <grid row="35" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generare culoare"/>
+        </properties>
+      </component>
+      <component id="604dc" class="javax.swing.JButton" binding="btnCantitateTotala">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <text value="GENERARE RAPORT"/>
+        </properties>
+      </component>
+      <component id="9c0e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Pentru a putea genera rapoarte, trebuie citita baza de date!"/>
+        </properties>
+      </component>
+      <component id="23ce" class="javax.swing.JLabel" binding="lblError1">
+        <constraints>
+          <grid row="15" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="620a1" class="javax.swing.JTextField" binding="txtValoareTotala">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="851b4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="16" style="1"/>
+          <foreground color="-4505534"/>
+          <text value="GENERARE RAPORT VALOARE TOTALA PRODUSE"/>
+        </properties>
+      </component>
+      <component id="27c0b" class="javax.swing.JButton" binding="btnValoareTotala">
+        <constraints>
+          <grid row="14" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5320722"/>
+          <font name="Monospaced" size="16" style="1"/>
+          <text value="GENERARE RAPORT"/>
+        </properties>
+      </component>
+      <hspacer id="67819">
+        <constraints>
+          <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6124f">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="34a07">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
